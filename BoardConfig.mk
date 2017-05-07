@@ -91,6 +91,9 @@ TARGET_POWERHAL_VARIANT := qcom
 CM_POWERHAL_EXTENSION := qcom
 TARGET_POWERHAL_SET_INTERACTIVE_EXT := device/leeco/s2/power/power_ext.c
 
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
+
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 TARGET_RIL_VARIANT := caf
