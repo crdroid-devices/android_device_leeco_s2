@@ -284,19 +284,19 @@
 		<threshold>
 			<mitigation name="charging" level="off" />
 		</threshold>
-		<threshold trigger="41000" clear="40000">
+		<threshold trigger="43000" clear="42000">
 			<mitigation name="charging" level="1" />
 		</threshold>
-		<threshold trigger="42000" clear="41000">
+		<threshold trigger="44000" clear="43000">
 			<mitigation name="charging" level="2" />
 		</threshold>
-		<threshold trigger="43000" clear="42000">
+		<threshold trigger="45000" clear="44000">
 			<mitigation name="charging" level="3" />
 		</threshold>
-		<threshold trigger="44000" clear="43000">
+		<threshold trigger="46000" clear="45000">
 			<mitigation name="charging" level="4" />
 		</threshold>
-		<threshold trigger="45000" clear="44000">
+		<threshold trigger="47000" clear="46000">
 			<mitigation name="charging" level="5" />
 		</threshold>
 	</configuration>
